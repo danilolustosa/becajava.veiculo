@@ -1,9 +1,10 @@
 package veiculo;
 
-public class Uno extends Veiculo {
+public class Uno extends Categoria {
 	
 
 	public Uno() {
+		NomeDaCategoria = "Popular";
 		setMarca("Fiat");
 	}
 
